@@ -14,17 +14,29 @@
 
 </head>
 <body>
-
-<header class="container">
+<header>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+		    <nav>
+    	    	<div class="nav-wrapper">
+    	    		<h1>To-Do App</h1>
+    	    	</div>
+    	    </nav>	
+		</div>
+	</div>
+</header>
+<section class="container">
     <div class="row">
     	<div class="col offset-s2 s8 text-center">
-    		<h1>To-Do App</h1>
+    	    
     	</div>
     </div>
     <div class="row">
     	<div class="col offset-s2 s8">
-    		<form action="">
-    			<input type="text" id="nombre">
+    		<form action="#">
+                <input type="text" placeholder="Add new task">
+                <button id="addBtn">Add</button>
+            
     			<h3>To Do Items</h3>
     	    </form>
     	</div>
@@ -32,8 +44,28 @@
     <div class="row">
     	<div class="col offset-s2 s8 checkbox">
             <label>
-                <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
-               
+                <div class="row">
+                	<input type="checkbox" id="test5" />
+                    <label for="test5">Hacer almuerzo</label>
+                </div>
+            </label>
+             <label>
+                <div class="row">
+                	<input type="checkbox" id="test5" />
+                    <label for="test5">Darle comida a mis gatos</label>
+                </div>
+            </label>
+             <label>
+                <div class="row">
+                	<input type="checkbox" id="test5" />
+                    <label for="test5">Ordenar la pieza</label>
+                </div>
+            </label>
+             <label>
+                <div class="row">
+                	<input type="checkbox" id="test5" />
+                    <label for="test5">Estudiar y hacer tarea</label>
+                </div>
             </label>
         </div>
     </div>
@@ -42,7 +74,7 @@
     		</form>
     	</div>
     </div>
-</header>
+</section>
 
 <section class="container">
     <div class="col offset-s3 s6">
