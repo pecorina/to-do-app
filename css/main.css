@@ -1,0 +1,22 @@
+body{
+	background-image: url('../img/milcats.jpg');
+	padding: 3% 0;
+	color: white;
+	font-family: 'Bellefair', serif;
+}
+
+h1{
+
+}
+ header, section{
+ 	padding: 4% 0;
+ 	background-color: rgba(300, 212, 208, 0.8);
+ }
+
+ button{
+ 	background-color: rgb(150, 208, 212);
+ 	color: black;
+ }
+ label , span, p{
+ 	color: black;
+ }
